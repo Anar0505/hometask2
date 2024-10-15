@@ -1,0 +1,119 @@
+
+header{
+    position: relative;
+    background-image:  url(https://sb-clean-blog.startbootstrap.com/assets/img/home-bg.jpg);
+    margin-bottom: 50px;
+    background-size: cover;
+    object-fit:cover ;
+}
+.grayshadow{
+    width: 100%;
+    height: 100%;
+    background-color: #212529;
+    position: absolute;
+    opacity: 0.5;
+}
+.navbar{
+    background-color: transparent;
+    padding: 8px 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__start{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+}
+.navbar__items{
+    display: flex;
+}
+.navbar__items__item{
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+}
+.navbar__items:last-child{
+    padding: 0 10px !important; 
+    font-size: 20px !important;
+    display: flex;
+    align-items: center;
+}
+.navbar__items:last-child i{
+    font-size: 20px;
+}
+.navbar__menubutton{
+    width: 49.1px;
+    height: 47.7px;
+    border: 1px solid rgba(0, 0, 0 , 0.5);
+    font-size: 16px;
+    padding: 13px;
+    display: none;
+    background-color: white;
+    cursor: pointer;
+}
+.navbar__menubutton button{
+    
+}
+.header__content{
+    margin: 0 auto;
+    padding: 200px 0;
+    position: relative;
+}
+.header__content h1{
+font-size: 80px;
+font-weight: 800;
+margin-bottom: 8px;
+color: white;
+text-align: center;
+z-index: 5;
+}
+.header__content p{
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width: 990px) {
+  .container{
+    max-width: 720px;
+  }
+  .navbar__start{
+    color: black;
+    padding: 5px 0;
+  }
+    .navbar{
+background-color: white;
+padding: 8px;
+    }
+    .navbar__items{
+        display: none;
+    }
+    .navbar__menubutton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    
+    .header__content h1{
+    font-size: 50px;
+    }
+     
+    }
